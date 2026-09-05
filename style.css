@@ -1,0 +1,149 @@
+body {
+    background: #d2cedc;
+    color: #34313a;
+    font-family: "Courier New", monospace;
+    font-size: 14px;
+    margin: 0;
+}
+
+.page {
+    width: 760px;
+    margin: 30px auto;
+    background: #f0edf4;
+    border: 1px solid #777182;
+    padding: 20px;
+}
+
+header {
+    border-bottom: 1px dashed #777182;
+    padding-bottom: 15px;
+}
+
+h1 {
+    font-size: 28px;
+    margin: 0;
+}
+
+h2 {
+    font-size: 18px;
+}
+
+a {
+    color: #69527a;
+}
+
+a:hover {
+    background: #69527a;
+    color: white;
+}
+
+nav {
+    padding: 12px 0;
+}
+
+main {
+    line-height: 1.6;
+    min-height: 350px;
+}
+
+.date {
+    color: #777182;
+    font-size: 12px;
+}
+
+hr {
+    border: 0;
+    border-top: 1px dashed #777182;
+}
+
+footer {
+    border-top: 1px dashed #777182;
+    margin-top: 20px;
+    padding-top: 10px;
+    font-size: 11px;
+    color: #777182;
+}
+.about-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 25px;
+}
+
+.about-text {
+    flex: 1;
+}
+
+.about-photo-box {
+    width: 165px;
+    flex-shrink: 0;
+    margin-top: -15px;
+}
+
+.about-photo {
+    width: 155px;
+    padding: 4px;
+    border: 3px double #777182;
+    background: #f0edf4;
+    opacity: 0.9;
+
+    box-shadow:
+        4px 4px 0 #b7a9c7,
+        -4px -4px 0 #d8c8e6;
+
+    
+}
+.about-photo {
+    width: 155px;
+    padding: 4px;
+    border: 3px solid transparent;
+    border-image: linear-gradient(
+        90deg,
+        #e88b9b,
+        #e8c27a,
+        #9fc58b,
+        #8bb7d9,
+        #a996c7
+    ) 1;
+    background: #f0edf4;
+    opacity: 0.9;
+
+    box-shadow:
+        4px 4px 0 #b7a9c7,
+}
+
+
+main {
+    position: relative;
+    line-height: 1.6;
+    min-height: 350px;
+}
+main {
+    line-height: 1.6;
+    min-height: 350px;
+    text-align: justify;
+}
+main {
+    line-height: 1.7;
+    min-height: 350px;
+    max-width: 650px;
+}
+
+main p {
+    margin: 0 0 18px 0;
+}
+.button {
+    display: inline-block;
+    padding: 6px 10px;
+    margin-right: 8px;
+    border: 1px solid #777182;
+    background: #e3ddea;
+    color: #34313a;
+    text-decoration: none;
+    box-shadow: 2px 2px 0 #b7a9c7;
+}
+
+.button:hover {
+    background: #69527a;
+    color: white;
+}
