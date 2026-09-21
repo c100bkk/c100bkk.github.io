@@ -7,10 +7,14 @@ body {
 }
 
 .page {
-    width: 100%;
-    max-width: 760px;
+    width: 760px;
+    max-width: calc(100% - 20px);
     box-sizing: border-box;
     margin: 30px auto;
+    background: #f0edf4;
+    border: 1px solid #777182;
+    padding: 20px;
+}
 
 header {
     border-bottom: 1px dashed #777182;
