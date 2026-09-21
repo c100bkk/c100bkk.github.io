@@ -7,12 +7,10 @@ body {
 }
 
 .page {
-    width: 760px;
+    width: 100%;
+    max-width: 760px;
+    box-sizing: border-box;
     margin: 30px auto;
-    background: #f0edf4;
-    border: 1px solid #777182;
-    padding: 20px;
-}
 
 header {
     border-bottom: 1px dashed #777182;
